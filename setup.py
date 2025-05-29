@@ -7,13 +7,13 @@ with open(os.path.join(this_directory, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="django-fsm-admin2",
+    name="django-fsm-2-admin2",
     version="0.1.3",
     packages=["fsm_admin2"],
     long_description=long_description,
     long_description_content_type="text/markdown",
     include_package_data=True,
-    url="https://github.com/Kudria/django-fsm-admin2",
+    url="https://github.com/specialorange/django-fsm-2-admin2",
     author="Alexandr Kudriavtcev",
     author_email="kudria15@gmail.com",
     description="django-fsm transition integration to django admin.",
